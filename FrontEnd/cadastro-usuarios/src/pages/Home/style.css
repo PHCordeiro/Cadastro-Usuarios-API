@@ -24,7 +24,7 @@
   }
   
   h1 {
-    color: #E5E5E5; 
+    color: #E5E5E5;
     font-size: 32px;
     text-transform: uppercase;
     text-align: center;
@@ -37,7 +37,7 @@
     gap: 20px;
     padding: 30px;
     border-radius: 10px;
-    background-color: rgba(46, 59, 45, 0.9); 
+    background-color: rgba(46, 59, 45, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     width: 100%;
     max-width: 500px;
@@ -46,7 +46,7 @@
   
   form button {
     border-radius: 30px;
-    background-color: #688f4e; 
+    background-color: #688f4e;
     color: #fff;
     height: 40px;
     border: none;
@@ -57,14 +57,14 @@
   }
   
   form button:hover {
-    background-color: #4f6e3a; 
+    background-color: #4f6e3a;
   }
   
   form input {
-    border: 1px solid #4b6a3d; 
+    border: 1px solid #4b6a3d;
     border-radius: 30px;
     height: 40px;
-    background: #3a4c3a; 
+    background: #3a4c3a;
     color: #E5E5E5;
     font-size: 16px;
     padding-left: 10px;
@@ -73,7 +73,7 @@
   }
   
   form input:focus {
-    border-color: #688f4e; 
+    border-color: #688f4e;
   }
   
   .card {
@@ -89,7 +89,7 @@
   }
   
   .card p {
-    color: #E5E5E5; 
+    color: #E5E5E5;
     font-weight: bold;
   }
   
@@ -110,4 +110,46 @@
     color: #4f6e3a;
     opacity: 0.8;
   }
+  
+  .editing-form input {
+    border: 1px solid #4b6a3d;
+    border-radius: 10px;
+    background: #3a4c3a;
+    color: #E5E5E5;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  .editing-form .buttons button {
+    margin-right: 10px;
+  }
+  
+  .editing-form .buttons button:hover {
+    background-color: #4f6e3a;
+    color: #fff;
+  }
+  
+  .buttons button {
+    background-color: transparent;
+    color: #688f4e;
+    cursor: pointer;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  .user-info p {
+    color: #E5E5E5;
+    font-weight: bold;
+  }
+  
+  .user-info p span {
+    font-weight: normal;
+  }
+
+
   
