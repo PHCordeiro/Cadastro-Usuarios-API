@@ -1,10 +1,14 @@
 import express from 'express'
+import cors from 'cors'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
 const app = express()
 app.use(express.json());
+//Habilita qualquer página acessar seu backend
+//Só usei em teste, normalmente coloca o endereço do Front que vai acessar
+app.use(cors())
 
 app.post('/usuarios', async (req, res) => {
     try {

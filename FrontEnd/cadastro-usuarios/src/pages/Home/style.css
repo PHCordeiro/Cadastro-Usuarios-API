@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #1A472A 0%, rgba(192,192,192,0.8) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h1 {
+    color: #E5E5E5; 
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(46, 59, 45, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    border-radius: 30px;
+    background-color: #688f4e; 
+    color: #fff;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #4f6e3a; 
+  }
+  
+  form input {
+    border: 1px solid #4b6a3d; 
+    border-radius: 30px;
+    height: 40px;
+    background: #3a4c3a; 
+    color: #E5E5E5;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #688f4e; 
+  }
+  
+  .card {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(46, 59, 45, 0.9);
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #E5E5E5; 
+    font-weight: bold;
+  }
+  
+  .card p span {
+    font-weight: normal;
+  }
+  
+  .card button {
+    background-color: transparent;
+    border: none;
+    color: #688f4e;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .card button:hover {
+    color: #4f6e3a;
+    opacity: 0.8;
+  }
+  
