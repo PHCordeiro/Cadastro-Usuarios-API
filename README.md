@@ -14,6 +14,7 @@ Este projeto é um sistema de cadastro de usuários desenvolvido com uma API usa
 - Node.js
 - Prisma ORM
 - Banco de dados compatível com Prisma (como PostgreSQL, MySQL, SQLite, MongoDB.)
+- Postman (Utilizado para executar as funções da API sem o Front.)
 - React
 
 ## Instalação
